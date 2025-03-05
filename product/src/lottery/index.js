@@ -85,7 +85,7 @@ function initAll() {
         if (
           data.luckyData[prizeIndex] &&
           data.luckyData[prizeIndex].length >=
-            basicData.prizes[prizeIndex].count
+          basicData.prizes[prizeIndex].count
         ) {
           continue;
         }
@@ -267,7 +267,7 @@ function bindEvent() {
           // 抽奖
           lottery();
         });
-        addQipao(`正在抽取[${currentPrize.title}],调整好姿势`);
+        addQipao(`111正在抽取[${currentPrize.title}],调整好姿势`);
         break;
       // 重新抽奖
       case "reLottery":
@@ -707,9 +707,8 @@ function random(num) {
 function changeCard(cardIndex, user) {
   let card = threeDCards[cardIndex].element;
 
-  card.innerHTML = `<div class="company">${COMPANY}</div><div class="name">${
-    user[1]
-  }</div><div class="details">${user[0] || ""}<br/>${user[2] || "PSST"}</div>`;
+  card.innerHTML = `<div class="company">${COMPANY}</div><div class="name">${user[1]
+    }</div><div class="details">${user[0] || ""}<br/>${user[2] || "PSST"}</div>`;
 }
 
 /**
@@ -826,47 +825,4 @@ let onload = window.onload;
 
 window.onload = function () {
   onload && onload();
-
-  let music = document.querySelector("#music");
-
-  let rotated = 0,
-    stopAnimate = false,
-    musicBox = document.querySelector("#musicBox");
-
-  function animate() {
-    requestAnimationFrame(function () {
-      if (stopAnimate) {
-        return;
-      }
-      rotated = rotated % 360;
-      musicBox.style.transform = "rotate(" + rotated + "deg)";
-      rotated += 1;
-      animate();
-    });
-  }
-
-  musicBox.addEventListener(
-    "click",
-    function (e) {
-      if (music.paused) {
-        music.play().then(
-          () => {
-            stopAnimate = false;
-            animate();
-          },
-          () => {
-            addQipao("背景音乐自动播放失败，请手动播放！");
-          }
-        );
-      } else {
-        music.pause();
-        stopAnimate = true;
-      }
-    },
-    false
-  );
-
-  setTimeout(function () {
-    musicBox.click();
-  }, 1000);
 };

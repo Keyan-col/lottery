@@ -1,6 +1,10 @@
 # Use the official Node.js 16 image as base image
 FROM node:16.14.0-buster
 
+# ENV HTTP_PROXY=http://172.16.0.13:18000
+# ENV HTTPS_PROXY=http://172.16.0.13:18000
+RUN npm config set registry https://registry.npmmirror.com
+
 # Upgrade npm to the latest version
 RUN npm install -g npm@9.6.2
 

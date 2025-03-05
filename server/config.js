@@ -48,20 +48,7 @@ const prizes = [
     title: "大疆无人机",
     img: "../img/spark.jpg"
   },
-  {
-    type: 6,
-    count: 8,
-    text: "五等奖",
-    title: "Kindle",
-    img: "../img/kindle.jpg"
-  },
-  {
-    type: 7,
-    count: 11,
-    text: "六等奖",
-    title: "漫步者蓝牙耳机",
-    img: "../img/edifier.jpg"
-  }
+
 ];
 
 /**
