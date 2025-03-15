@@ -183,6 +183,7 @@ button:active {
   overflow-y: auto;
   height: auto;
   min-height: 0;
+  pointer-events: auto;
 }
 
 /* 自定义滚动条样式 */
@@ -218,6 +219,7 @@ button:active {
   padding: 0 1.2vh 0 0;
   list-style: none;
   box-sizing: border-box;
+  pointer-events: auto;
 }
 
 .prize-item {
@@ -235,6 +237,7 @@ button:active {
   height: 10vh;
   box-sizing: border-box;
   transition: transform 1s ease-in;
+  pointer-events: none;
 }
 
 .prize-item .prize-img {
@@ -245,6 +248,7 @@ button:active {
   background-color: #fff;
   text-shadow: 0 0 1vh rgba(0, 255, 255, 0.95);
   overflow: hidden;
+  pointer-events: none;
 }
 
 .prize-img img {
@@ -258,6 +262,7 @@ button:active {
 
 .prize-text {
   flex: 1;
+  pointer-events: none;
 }
 
 .prize-title {
