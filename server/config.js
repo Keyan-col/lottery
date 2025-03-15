@@ -18,7 +18,7 @@ const prizes = [
     {
       "type": 10,
       "count": 2,
-      "text": "",
+      "text": "马宝君",
       "title": "3D震动洁肤仪(2000HKD)",
       "img": "../img/gift.png"
     },
@@ -46,7 +46,7 @@ const prizes = [
     {
       "type": 7,
       "count": 5,
-      "text": "",
+      "text": "蔡惠青",
       "title": "巴寶莉女神香水礼盒",
       "img": "../img/gift.png"
     },
@@ -73,9 +73,9 @@ const prizes = [
     },
     {
       "type": 4,
-      "count": 1000,
+      "count": 1,
       "text": "路  遥",
-      "title": "THC可持续研学所免费SCI论文咨询",
+      "title": "THC可持续研学所免费SCI论文咨询 1000小时",
       "img": "../img/gift.png"
     },
     {
@@ -105,7 +105,7 @@ const prizes = [
 /**
  * 一次抽取的奖品个数与prizes对应
  */
-const EACH_COUNT = [1, 1, 5, 6, 7, 8, 9, 10];
+const EACH_COUNT = [60, 50, 1, 1, 10, 10, 30, 5, 5, 1, 2, 2,1];
 
 /**
  * 卡片公司名称标识
