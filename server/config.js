@@ -7,7 +7,6 @@
  * img: 图片地址
  */
 const prizes = [
-  [
     {
       "type": 11,
       "count": 1,
@@ -99,7 +98,6 @@ const prizes = [
       "title": "家里香 文昌鸡",
       "img": "../img/gift.png"
     }
-  ]
 ];
 
 /**
