@@ -104,11 +104,11 @@ const prizes = [
  * 一次抽取的奖品个数与prizes对应
  */
 // const EACH_COUNT = [60, 50, 1, 1, 10, 10, 30, 5, 5, 1, 2, 2, 1];
-const EACH_COUNT = [1, 2, 2, 1, 5, 5, 30, 10, 10, 1, 1, 50, 60]
+const EACH_COUNT = [1, 2, 2, 1, 5, 5, 15, 10, 10, 1, 1, 10, 15]
 /**
  * 卡片公司名称标识
  */
-const COMPANY = "MoShang";
+const COMPANY = " ";
 
 module.exports = {
   prizes,
