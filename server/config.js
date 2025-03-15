@@ -8,42 +8,42 @@
  */
 const prizes = [
     {
-      "type": 11,
+      "type": 13,
       "count": 1,
       "text": "王龍贊助",
       "title": "茅台生肖酒 一支",
       "img": "../img/gift.png"
     },
     {
-      "type": 10,
+      "type": 12,
       "count": 2,
       "text": "馬寶君贊助",
       "title": "3D震動潔膚儀",
       "img": "../img/gift.png"
     },
     {
-      "type": 10,
+      "type": 11,
       "count": 2,
       "text": "馬寶君贊助",
       "title": "聲波振動離子導入儀",
       "img": "../img/gift.png"
     },
     {
-      "type": 9,
+      "type": 10,
       "count": 1,
       "text": "張樂烽贊助",
       "title": "榮耀平板電腦",
       "img": "../img/gift.png"
     },
     {
-      "type": 8,
+      "type": 9,
       "count": 5,
       "text": "陳日飆贊助",
       "title": "華為WATCH智能手錶",
       "img": "../img/gift.png"
     },
     {
-      "type": 7,
+      "type": 8,
       "count": 5,
       "text": "蔡惠青贊助",
       "title": "巴寶莉女神香水禮盒",
